@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4D8FCC991E86E3EE00D51B0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FCC981E86E3EE00D51B0F /* AppDelegate.swift */; };
-		4D8FCC9B1E86E3EE00D51B0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FCC9A1E86E3EE00D51B0F /* ViewController.swift */; };
-		4D8FCC9E1E86E3EE00D51B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FCC9C1E86E3EE00D51B0F /* Main.storyboard */; };
 		4D8FCCA01E86E3EE00D51B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FCC9F1E86E3EE00D51B0F /* Assets.xcassets */; };
-		4D8FCCA31E86E3EE00D51B0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FCCA11E86E3EE00D51B0F /* LaunchScreen.storyboard */; };
 		4D8FCCAE1E86E3EE00D51B0F /* RacIntro2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FCCAD1E86E3EE00D51B0F /* RacIntro2Tests.swift */; };
+		4D8FCCBD1E883FFA00D51B0F /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FCCBC1E883FFA00D51B0F /* Film.swift */; };
+		4D8FCCC01E88406E00D51B0F /* FilmCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FCCBE1E88406E00D51B0F /* FilmCollectionViewController.swift */; };
+		4D8FCCC11E88406E00D51B0F /* FilmCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FCCBF1E88406E00D51B0F /* FilmCollectionViewController.xib */; };
+		4D8FCCC41E88409300D51B0F /* FilmCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FCCC21E88409300D51B0F /* FilmCollectionViewCell.swift */; };
+		4D8FCCC51E88409300D51B0F /* FilmCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FCCC31E88409300D51B0F /* FilmCollectionViewCell.xib */; };
+		9701BC09B0BB6D12A8C8FBF9 /* Pods_RacIntro2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BCE9FA7CDF4DC6D87E5D04 /* Pods_RacIntro2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +29,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08D196D69F115642C26E69F0 /* Pods-RacIntro2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RacIntro2.release.xcconfig"; path = "Pods/Target Support Files/Pods-RacIntro2/Pods-RacIntro2.release.xcconfig"; sourceTree = "<group>"; };
 		4D8FCC951E86E3EE00D51B0F /* RacIntro2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RacIntro2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8FCC981E86E3EE00D51B0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D8FCC9A1E86E3EE00D51B0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4D8FCC9D1E86E3EE00D51B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D8FCC9F1E86E3EE00D51B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4D8FCCA21E86E3EE00D51B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D8FCCA41E86E3EE00D51B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D8FCCA91E86E3EE00D51B0F /* RacIntro2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RacIntro2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8FCCAD1E86E3EE00D51B0F /* RacIntro2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacIntro2Tests.swift; sourceTree = "<group>"; };
 		4D8FCCAF1E86E3EE00D51B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8FCCBC1E883FFA00D51B0F /* Film.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Film.swift; path = Models/Film.swift; sourceTree = "<group>"; };
+		4D8FCCBE1E88406E00D51B0F /* FilmCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilmCollectionViewController.swift; path = Controllers/FilmCollectionViewController.swift; sourceTree = "<group>"; };
+		4D8FCCBF1E88406E00D51B0F /* FilmCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FilmCollectionViewController.xib; path = Controllers/FilmCollectionViewController.xib; sourceTree = "<group>"; };
+		4D8FCCC21E88409300D51B0F /* FilmCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilmCollectionViewCell.swift; path = Views/FilmCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D8FCCC31E88409300D51B0F /* FilmCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FilmCollectionViewCell.xib; path = Views/FilmCollectionViewCell.xib; sourceTree = "<group>"; };
+		52BCE9FA7CDF4DC6D87E5D04 /* Pods_RacIntro2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RacIntro2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CAD9DCF2303056ED61CA9A /* Pods-RacIntro2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RacIntro2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RacIntro2/Pods-RacIntro2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9701BC09B0BB6D12A8C8FBF9 /* Pods_RacIntro2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +65,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		350F3923E2F025CC8F974F1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76CAD9DCF2303056ED61CA9A /* Pods-RacIntro2.debug.xcconfig */,
+				08D196D69F115642C26E69F0 /* Pods-RacIntro2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4D8FCC8C1E86E3EE00D51B0F = {
 			isa = PBXGroup;
 			children = (
 				4D8FCC971E86E3EE00D51B0F /* RacIntro2 */,
 				4D8FCCAC1E86E3EE00D51B0F /* RacIntro2Tests */,
 				4D8FCC961E86E3EE00D51B0F /* Products */,
+				350F3923E2F025CC8F974F1C /* Pods */,
+				9951D676C643CFAFF0FA46B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +97,12 @@
 		4D8FCC971E86E3EE00D51B0F /* RacIntro2 */ = {
 			isa = PBXGroup;
 			children = (
+				4D8FCCBB1E87F22D00D51B0F /* Models */,
+				4D8FCCBA1E87F22800D51B0F /* Views */,
+				4D8FCCB91E87F22200D51B0F /* ViewModels */,
+				4D8FCCB81E87F21D00D51B0F /* Controllers */,
 				4D8FCC981E86E3EE00D51B0F /* AppDelegate.swift */,
-				4D8FCC9A1E86E3EE00D51B0F /* ViewController.swift */,
-				4D8FCC9C1E86E3EE00D51B0F /* Main.storyboard */,
 				4D8FCC9F1E86E3EE00D51B0F /* Assets.xcassets */,
-				4D8FCCA11E86E3EE00D51B0F /* LaunchScreen.storyboard */,
 				4D8FCCA41E86E3EE00D51B0F /* Info.plist */,
 			);
 			path = RacIntro2;
@@ -96,6 +117,47 @@
 			path = RacIntro2Tests;
 			sourceTree = "<group>";
 		};
+		4D8FCCB81E87F21D00D51B0F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D8FCCBE1E88406E00D51B0F /* FilmCollectionViewController.swift */,
+				4D8FCCBF1E88406E00D51B0F /* FilmCollectionViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4D8FCCB91E87F22200D51B0F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		4D8FCCBA1E87F22800D51B0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D8FCCC21E88409300D51B0F /* FilmCollectionViewCell.swift */,
+				4D8FCCC31E88409300D51B0F /* FilmCollectionViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4D8FCCBB1E87F22D00D51B0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D8FCCBC1E883FFA00D51B0F /* Film.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9951D676C643CFAFF0FA46B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52BCE9FA7CDF4DC6D87E5D04 /* Pods_RacIntro2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D8FCCB21E86E3EE00D51B0F /* Build configuration list for PBXNativeTarget "RacIntro2" */;
 			buildPhases = (
+				71E4C8840B3CBBE05630B923 /* [CP] Check Pods Manifest.lock */,
 				4D8FCC911E86E3EE00D51B0F /* Sources */,
 				4D8FCC921E86E3EE00D51B0F /* Frameworks */,
 				4D8FCC931E86E3EE00D51B0F /* Resources */,
+				96F1631B8AAEFBCAD13A858C /* [CP] Embed Pods Frameworks */,
+				A2C488C6E07BE1A6A50BC96C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,9 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D8FCCA31E86E3EE00D51B0F /* LaunchScreen.storyboard in Resources */,
+				4D8FCCC11E88406E00D51B0F /* FilmCollectionViewController.xib in Resources */,
+				4D8FCCC51E88409300D51B0F /* FilmCollectionViewCell.xib in Resources */,
 				4D8FCCA01E86E3EE00D51B0F /* Assets.xcassets in Resources */,
-				4D8FCC9E1E86E3EE00D51B0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,12 +261,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		71E4C8840B3CBBE05630B923 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96F1631B8AAEFBCAD13A858C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RacIntro2/Pods-RacIntro2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2C488C6E07BE1A6A50BC96C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RacIntro2/Pods-RacIntro2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D8FCC911E86E3EE00D51B0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D8FCC9B1E86E3EE00D51B0F /* ViewController.swift in Sources */,
+				4D8FCCC01E88406E00D51B0F /* FilmCollectionViewController.swift in Sources */,
+				4D8FCCC41E88409300D51B0F /* FilmCollectionViewCell.swift in Sources */,
+				4D8FCCBD1E883FFA00D51B0F /* Film.swift in Sources */,
 				4D8FCC991E86E3EE00D51B0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,25 +338,6 @@
 			targetProxy = 4D8FCCAA1E86E3EE00D51B0F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4D8FCC9C1E86E3EE00D51B0F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D8FCC9D1E86E3EE00D51B0F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4D8FCCA11E86E3EE00D51B0F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D8FCCA21E86E3EE00D51B0F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4D8FCCB01E86E3EE00D51B0F /* Debug */ = {
@@ -337,8 +433,10 @@
 		};
 		4D8FCCB31E86E3EE00D51B0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CAD9DCF2303056ED61CA9A /* Pods-RacIntro2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 79X6ADKY9P;
 				INFOPLIST_FILE = RacIntro2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -350,8 +448,10 @@
 		};
 		4D8FCCB41E86E3EE00D51B0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08D196D69F115642C26E69F0 /* Pods-RacIntro2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 79X6ADKY9P;
 				INFOPLIST_FILE = RacIntro2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -410,6 +510,7 @@
 				4D8FCCB41E86E3EE00D51B0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D8FCCB51E86E3EE00D51B0F /* Build configuration list for PBXNativeTarget "RacIntro2Tests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +519,7 @@
 				4D8FCCB71E86E3EE00D51B0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
